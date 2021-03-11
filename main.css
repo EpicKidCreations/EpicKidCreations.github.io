@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+#aboutme{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    color: blue;
+}
+.Titles{
+    text-align: center;
+    color: rgb(0, 255, 191);
+}
+
+.nevahacks{
+    display:inline-block;
+    color: white;
+}
+
+#nevahackstitle {
+    color: blue;
+}
+
+.nevahacks a {
+    color: rgb(0, 132, 255);
+}
+
+.nevahacks a:hover {
+    color: white;
+}
